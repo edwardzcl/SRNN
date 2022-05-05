@@ -20,7 +20,7 @@ C. Zou, X. Cui, J. Ge, Y. Kuang, Y. Wang,  and X. Wang, "A Hybrid Spiking Recurr
 ### **Dependencies and Libraries**:
 * python 3.5 (https://www.python.org/ or https://www.anaconda.com/)
 * pytorch 0.4.1 (https://pytorch.org/)
-* torchtext 0.3.1
+* torchtext 0.3.1, glove.6B
 * CPU: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
 * GPU: Tesla V100
 
