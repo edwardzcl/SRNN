@@ -40,7 +40,7 @@ $ python text_cnn.py
 for example (networks training and testing, *Cars dataset*):
 ```sh
 $ cd Cars
-$ python movies_main.py
+$ python cars_main.py
 $ python text_cnn.py
 ```
 
