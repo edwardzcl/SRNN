@@ -45,7 +45,7 @@ $ python text_cnn.py
 ```
 
 ## Others
-* You can run the `plot_sop.py` and `plot_sparsity` to get illustration information.
+* You can run the `plot_sop.py` and `plot_sparsity.py` to get illustration information.
 
 ## Results
 Please refer to our paper for more information.
