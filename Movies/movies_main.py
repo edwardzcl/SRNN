@@ -366,7 +366,8 @@ def predict_sentiment(net, vocab, sentence):
     '''
     device = list(net.parameters())[0].device # 读取模型所在的环境
     sentence = torch.tensor([vocab.stoi[word] for word in sentence], device=device)
-    label = torch.argmax(net(sentence.view((1, -1))), dim=1)# 这里输入之后,进入embedding,进入lstm,进入全连接层,输出结果
+    object_class = net(sentence.view((1, -1)))
+    label = torch.argmax(object_class[0] dim=1)# 这里输入之后,进入embedding,进入lstm,进入全连接层,输出结果
     return 'positive' if label.item() == 1 else 'negative'
 
 print(predict_sentiment(net, vocab, ['this', 'movie', 'is', 'so', 'great']))
