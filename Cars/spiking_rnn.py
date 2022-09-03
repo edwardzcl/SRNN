@@ -16,7 +16,7 @@ class ActFun(torch.autograd.Function):
     @staticmethod
     def forward(ctx, input):
         ctx.save_for_backward(input)
-        return input.gt(thresh).float()
+        return input.ge(thresh).float()
 
     @staticmethod
     def backward(ctx, grad_output):
