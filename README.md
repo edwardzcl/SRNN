@@ -5,7 +5,7 @@
 ***
 
 ## Citation:
-C. Zou, X. Cui, J. Ge, Y. Kuang, Y. Wang,  and X. Wang, "A Hybrid Spiking Recurrent Neural Network on Hardware for Efficient Emotion Recognition," 2022 IEEE 4th International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2022, pp. 1-4, doi: xxx.
+C. Zou, X. Cui, Y. Kuang, Y. Wang,  and X. Wang, "A Hybrid Spiking Recurrent Neural Network on Hardware for Efficient Emotion Recognition," 2022 IEEE 4th International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2022, pp. 1-4, doi: xxx.
 
 ### **Features**:
 - This supplemental material gives a reproduction function of training and testing experiments of vanillaRNN, LSTM, Text-CNN and proposed spiking RNN (SRNN) in our paper. Two kinds of emotion recognition datasets with different sentence lengths (also in English and Chinese language) are considered.
