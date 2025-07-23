@@ -54,6 +54,9 @@ def get_vocab_imdb(data):
     counter = collections.Counter([tk for st in tokenized_data for tk in st])
     # 统计所有的数据
     return Vocab.Vocab(counter, min_freq=5)# 构建词汇表,这里最小出现次数是5
+    # # 手动过滤低频词
+    # filtered_counter = {token: freq for token, freq in counter.items() if freq >= 5}
+    # return Vocab.Vocab(filtered_counter)
 
 vocab = get_vocab_imdb(train_data)
 print('# words in vocab:', len(vocab))
